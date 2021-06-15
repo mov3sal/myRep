@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Infinite Scroll</title>
     <link
       rel="shortcut icon"
-      href="https://www.google.com/s2/favicons?domain=cdnjs.com"
+      href="https://www.google.com/s2/favicons?domain=www.instagram.com"
       type="image/png"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
+    <!-- Title -->
+    <h1 class="body-title">Unsplash API - Infinite Scroll</h1>
+    <!-- Loader -->
+    <div class="loader" id="loader" hidden>
+      <img src="loader.svg" alt="Loader" class="loader-svg" >
+    </div>
+    <!-- Images -->
+    <div class="img-container" id="img-container">
+      
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
