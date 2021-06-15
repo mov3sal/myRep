@@ -1,10 +1,8 @@
 const imgContainer = document.getElementById('img-container');
 const loader = document.getElementById('loader');
 
-let photosArray = [];
-
 // Create Elements For links & Photos, Add to DOM
-function displayPhotos(){
+function displayPhotos(photosArray){
     // Run function for each object in photosArray
     photosArray.forEach((photos) =>{
         // Create <a> to link to unsplash
